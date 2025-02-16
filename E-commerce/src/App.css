@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+} 
+
+body{
+  background-color: aliceblue;
+}
+
+.navbar-section {
+  position: sticky;
+  top: 0;
+}
+
+.navsection {
+  display: flex;
+  width: 100%;
+  min-width: 100vw;
+  height: 80px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+
+   
+}
+
+.user {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proSection {
+  display:flex;
+  background-color:white;
+}
+
+.imageBox {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.proImage{
+  width: 80%;
+}
+
+.proTitle h2 {
+  margin: 10px;
+}
+
+.subMenu ul li{
+  list-style: none ;
+  margin:26px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.subMenu ul li a {
+  text-decoration: none; /* Remove underline */
+  color: azure; /* Ensure links are the same color as text */
+}
+
+.subMenu ul li a:hover {
+  color: #007bff; /* Change color on hover */
+  text-decoration: none !important; /* Optional: add underline on hover */
+}
+
+.subMenu{
+  background-color: grey;
+  color: azure;
+  height: 50px;
+}
+
+
+.subMenu ul {
+  display: inline-flex;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none;
+
+
+}
+
+.pageSection {
+  display:grid;
+  grid-template-columns: repeat(4, 300px);
+  gap:10px;
+}
+
+.pageImg{
+  width:250px;
+  height:250px;
+
+}
+
+.pageImg img{
+  width:100%;
+}
+
+.ind-image {
+  width: 500px;
+  height: 500px;
+}
+
+.ind-section {
+  display: flex;
+}
+
+.ind-image img {
+  
+  width: 100%;
+}
+
+.ind-details {
+  padding:20px;
+}
+
+.space{
+  margin: 10px;
+}
+
+.ind-details button{
+  background-color: orangered;
+  padding: 10px;
+  width: 10rem;
+  border-radius: 5px;
+  columns: white;
+}
+
+.full-page{
+  display: flex;
+}
+
+.pro-selected {
+  width: 30%;
+  border: 1px solid black;
+  position:;
+    width: 200px;
+    top: 100;
+    left: 0;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow-y:;
+    
+    margin-right:20px;
+
+}
+
+.pro-input {
+  margin:5px;
+  padding-left:20px;
+  display:flex;
+  margin-right: 10px;
+}
+
+ul li {
+  color:white;
+}
+
+.cart {
+  color:white;
+}
+
+.cart span{
+  color:orange;
+}
